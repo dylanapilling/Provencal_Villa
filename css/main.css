@@ -1,0 +1,142 @@
+
+
+body{
+line-height: 1.5;
+font-family: 'EB Garamond', serif;
+font-size: 16px;
+background-color: #f1efd4;
+}
+
+.header {
+  text-align: center;
+  white-space: nowrap;
+}
+
+
+@media (max-width: 480px) {
+
+    #myCarousel {
+      width: 100%;
+    }
+    .heading {
+      font-size: 3vw !important;
+    }
+
+    .textbox-text {
+      font-size: 2.5vw !important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    #myCarousel {
+      width: 70%;
+    }
+
+    .heading {
+      font-size: 3vw !important;
+    }
+
+    .textbox-text {
+      font-size: 2.5vw !important;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .enchanting {
+    font-size: 50px;
+    }
+    #myCarousel {
+      width: 60%;
+    }
+
+}
+
+@media (min-width: 980px) {
+    .enchanting {
+      font-size: 70px;
+    }
+    #myCarousel {
+      width: 50%;
+    }
+
+}
+
+nav .navbar-nav li a{
+  color: black !important;
+  }
+
+.active {
+  text-decoration: underline;
+}
+
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse{
+  text-align: center;
+  font-size: 30px;
+}
+
+
+#myCarousel {
+  margin: auto;
+  border-style: solid;
+  border-width: medium;
+}
+
+.heading {
+  text-align: left;
+  font-size: 2vw;
+}
+
+footer {
+  padding: 25px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  margin: auto;
+}
+
+.textbox {
+  width: 70%;
+  margin-top: 30px;
+}
+
+.textbox-text {
+  text-align: justify;
+  height: inherit;
+  font-size: 1.5vw;
+}
+
+.text-image {
+  border-style: solid;
+  border-width: medium;
+}
+
+.calendar {
+  margin: auto;
+  width: 70%;
+}
+
+.contact {
+  margin: auto;
+  width: 70%;
+}
+
+.form {
+  width: 750px;
+}
+
+.btn-default {
+  border-style: solid;
+}
+
+.airbnb_embed_frame {
+  width: 70%;
+}
